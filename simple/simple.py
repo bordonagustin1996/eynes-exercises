@@ -12,5 +12,5 @@ def simple_list():
     return list_dict
 
 
-def sort_list():
-    pass
+def sort_list(dicts):
+    return sorted(dicts, lambda x: x.get('age'))
